@@ -19,10 +19,10 @@ export default function HomeHero() {
         </div>
         <div className="w-[30vw] pt-48">
           <span>
-            Our expertise lies in matching purchasers with the homes of their
+            {`Our expertise lies in matching purchasers with the homes of their
             dreams. Whether you're looking for a stunning estate, a roomy family
             home, or a charming house, our committed staff is here to help you
-            every step of the way.
+            every step of the way.`}
           </span>
         </div>
       </div>
