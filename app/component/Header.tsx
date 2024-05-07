@@ -11,9 +11,11 @@ export default function Header() {
     { name: "Blogs", href: "/blogs" },
   ];
   return (
-    <header className="relative max-w-[1440px] w-full flex justify-between items-center m-auto py-5">
+    <header className="relative max-w-[1440px] w-full h-[10vh] flex justify-between items-center m-auto py-5 px-10">
       <div>
-        <span>Abode</span>
+        <span className="cursor-pointer">
+          <Link href={"/"}>Abode</Link>
+        </span>
       </div>
       <div className="flex gap-x-10">
         <ul className="flex items-center gap-x-5">
