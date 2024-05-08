@@ -1,4 +1,5 @@
 "use client";
+import { AlignJustify } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -17,7 +18,7 @@ export default function Header() {
           <Link href={"/"}>Abode</Link>
         </span>
       </div>
-      <div className="flex gap-x-10">
+      <div className=" hidden md:flex gap-x-10">
         <ul className="flex items-center gap-x-5">
           {navItems.map((item, i) => (
             <Link
@@ -45,6 +46,9 @@ export default function Header() {
             </button>
           </div>
         </div>
+      </div>
+      <div className="md:hidden">
+        <AlignJustify />
       </div>
     </header>
   );
