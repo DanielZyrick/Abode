@@ -19,7 +19,7 @@ export default function Header() {
         </span>
       </div>
       <div className=" hidden md:flex gap-x-10">
-        <ul className="flex items-center gap-x-5">
+        <ul className="flex items-center gap-x-10">
           {navItems.map((item, i) => (
             <Link
               className={
