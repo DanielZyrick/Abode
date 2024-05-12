@@ -40,8 +40,8 @@ export default function HomeHero() {
               <select
                 name="location"
                 id="location"
-                className="p-2 rounded-xl bg-transparent border"
-                defaultValue="selecttype"
+                className="p-2 rounded-xl bg-transparent border px-4"
+                defaultValue="selectlocation"
               >
                 <option className="bg-black" value="selectlocation" disabled>
                   Select Location
