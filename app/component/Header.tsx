@@ -12,7 +12,7 @@ export default function Header() {
     { name: "Blogs", href: "/blogs" },
   ];
   return (
-    <header className="relative max-w-[1440px] w-full h-[10vh] flex justify-between items-center m-auto py-5 px-10">
+    <header className="relative max-w-[1440px] w-full max-h-[94px] h-[10vh] flex justify-between items-center m-auto py-5 px-5 md:px-10">
       <div>
         <span className="cursor-pointer">
           <Link href={"/"}>Abode</Link>
