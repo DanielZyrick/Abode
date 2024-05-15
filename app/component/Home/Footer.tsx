@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="w-full md:w-1/3">
           <h3 className="text-3xl mb-5">Get in Touch</h3>
           <p>
-            Ready to find your dream home? Contact us today to schedule a
+            {` Ready to find your dream home? Contact us today to schedule a
             viewing or learn more about our listings. Whether you're a
             first-time buyer or an experienced investor, we're here to help you
-            find the perfect house to call home.
+            find the perfect house to call home.`}
           </p>
         </div>
         <div className="flex flex-col gap-y-5 w-full md:w-1/3 pt-6">
